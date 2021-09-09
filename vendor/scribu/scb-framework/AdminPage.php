@@ -135,6 +135,7 @@ abstract class scbAdminPage {
 		}
 
 		add_action( 'admin_menu', array( $this, 'page_init' ), $this->args['admin_action_priority'] );
+		add_filter( 'contextual_help', array( $this, '_contextual_help' ), 10, 2 );
 
 		if ( $file ) {
 			$this->file = $file;
@@ -508,7 +509,6 @@ abstract class scbAdminPage {
 			'toplevel'              => '',
 			'position'              => null,
 			'icon_url'              => '',
-			'screen_icon'           => '',
 			'parent'                => 'options-general.php',
 			'capability'            => 'manage_options',
 			'menu_title'            => $this->args['page_title'],
@@ -538,7 +538,6 @@ abstract class scbAdminPage {
 	 * @param string|object $screen
 	 *
 	 * @return string
-	 * @deprecated 1.6.6 Not used
 	 */
 	public function _contextual_help( $help, $screen ) {
 		if ( is_object( $screen ) ) {
@@ -580,4 +579,3 @@ abstract class scbAdminPage {
 		return $links;
 	}
 }
-

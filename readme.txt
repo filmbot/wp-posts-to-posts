@@ -1,14 +1,14 @@
 === Posts 2 Posts ===
 
 Contributors: scribu, ciobi, ayecode, stiofansisland
-Tags: connections, custom post types, relationships, many-to-many, users  
-Requires at least: 3.9  
+Tags: connections, custom post types, relationships, many-to-many, users
+Requires at least: 3.9
 Requires PHP: 5.6
 Tested up to: 5.4
 Stable tag: 1.6.6
 
-License: GPLv2 or later  
-License URI: http://www.gnu.org/licenses/gpl-2.0.html  
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Efficient many-to-many connections between posts, pages, custom post types, users.
 
@@ -42,7 +42,7 @@ Links: [**Documentation**](http://github.com/scribu/wp-posts-to-posts/wiki) | [P
 See [Installing Plugins](http://codex.wordpress.org/Managing_Plugins#Installing_Plugins).
 
 After activating it, refer to the [Basic usage](https://github.com/scribu/wp-posts-to-posts/wiki/Basic-usage) tutorial.
- 
+
 Additional info can be found on the [wiki](http://github.com/scribu/wp-posts-to-posts/wiki).
 
 == Frequently Asked Questions ==
@@ -60,6 +60,9 @@ Additional info can be found on the [wiki](http://github.com/scribu/wp-posts-to-
 5. Connection Types screen
 
 == Changelog ==
+
+= 1.6.7 =
+* Update Mustache package to support PHP 8.
 
 = 1.6.6 =
 * AyeCode Ltd have committed to security and maintenance updates - INFO

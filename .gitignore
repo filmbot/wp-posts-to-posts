@@ -4,3 +4,5 @@
 # Composer
 composer.phar
 composer.lock
+vendor/composer
+vendor/autoload.php
