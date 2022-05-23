@@ -2,10 +2,10 @@
 
 Contributors: scribu, ciobi, ayecode, stiofansisland
 Tags: connections, custom post types, relationships, many-to-many, users
-Requires at least: 3.9
+Requires at least: 4.5
 Requires PHP: 5.6
-Tested up to: 5.4
-Stable tag: 1.6.7
+Tested up to: 5.9
+Stable tag: 1.7
 
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -61,7 +61,7 @@ Additional info can be found on the [wiki](http://github.com/scribu/wp-posts-to-
 
 == Changelog ==
 
-= 1.6.7 =
+= 1.7 =
 * Update Mustache package to support PHP 8.
 
 = 1.6.6 =
