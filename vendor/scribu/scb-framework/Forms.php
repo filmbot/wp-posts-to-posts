@@ -58,11 +58,11 @@ class scbForms {
 	 *
 	 * @param array  $inputs
 	 * @param array  $formdata (optional)
-	 * @param string $nonce
+	 * @param string $nonce (default null)
 	 *
 	 * @return string
 	 */
-	public static function form( $inputs, $formdata = null, $nonce ) {
+	public static function form( $inputs, $formdata = null, $nonce = null ) {
 		$output = '';
 		foreach ( $inputs as $input ) {
 			$output .= self::input( $input, $formdata );
