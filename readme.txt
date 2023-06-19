@@ -4,7 +4,7 @@ Contributors: scribu, ciobi, ayecode, stiofansisland
 Tags: connections, custom post types, relationships, many-to-many, users
 Requires at least: 4.5
 Requires PHP: 5.6
-Tested up to: 5.9
+Tested up to: 6.2
 Stable tag: 1.7
 
 License: GPLv2 or later
@@ -60,6 +60,9 @@ Additional info can be found on the [wiki](http://github.com/scribu/wp-posts-to-
 5. Connection Types screen
 
 == Changelog ==
+
+= 1.7.1 =
+* PHP deprecated notice "Creation of dynamic property" - FIXED
 
 = 1.7 =
 * Update Mustache package to support PHP 8.
