@@ -4,6 +4,7 @@ class P2P_Query_User {
 
 	static function init() {
 		add_action( 'pre_user_query', array( __CLASS__, 'pre_user_query' ), 20 );
+		add_action( 'pre_get_users', array( __CLASS__, 'pre_get_users' ), 20, 1 );
 	}
 
 	static function pre_user_query( $query ) {
@@ -43,5 +44,30 @@ class P2P_Query_User {
 		foreach ( $map as $clause => $key )
 			$query->$key = $clauses[ $clause ];
 	}
-}
 
+	/**
+	 * Filter the WP_User_Query instance.
+	 *
+	 * @since 1.7.1
+	 *
+	 * @param WP_User_Query $query Current instance of WP_User_Query.
+	 */
+	static function pre_get_users( $query ) {
+		if ( ! empty( $query ) && $query->get( 'p2p:context' ) == 'admin_box' ) {
+			$query->set( 'fields', array(
+				'id',
+				'user_login',
+				'user_pass',
+				'user_nicename',
+				'user_email',
+				'user_url',
+				'user_registered',
+				'user_activation_key',
+				'user_status',
+				'display_name'
+			) );
+		}
+
+		return $query;
+	}
+}

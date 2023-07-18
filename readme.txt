@@ -63,6 +63,7 @@ Additional info can be found on the [wiki](http://github.com/scribu/wp-posts-to-
 
 = 1.7.1 =
 * PHP deprecated notice "Creation of dynamic property" - FIXED
+* Unable to delete user connection after WordPress v6.1 - FIXED
 
 = 1.7 =
 * Update Mustache package to support PHP 8.
