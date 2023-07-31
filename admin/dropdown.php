@@ -45,9 +45,9 @@ abstract class P2P_Dropdown {
 
 		$tmp = reset( $_GET['p2p'] );
 
-		$args['connected_type'] = key( $_GET['p2p'] );
-
-		list( $args['connected_direction'], $args['connected_items'] ) = each( $tmp );
+		$args['connected_type']      = key( $_GET['p2p'] );
+		$args['connected_direction'] = key( $tmp );
+		$args['connected_items']     = current( $tmp );
 
 		if ( !$args['connected_items'] )
 			return array();
