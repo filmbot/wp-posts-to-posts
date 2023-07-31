@@ -5,7 +5,7 @@ Tags: connections, custom post types, relationships, many-to-many, users
 Requires at least: 4.5
 Requires PHP: 5.6
 Tested up to: 6.2
-Stable tag: 1.7
+Stable tag: 1.7.1
 
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -61,11 +61,11 @@ Additional info can be found on the [wiki](http://github.com/scribu/wp-posts-to-
 
 == Changelog ==
 
-= 1.7.1 =
+= 1.7.1 - 2023-07-31 =
 * PHP deprecated notice "Creation of dynamic property" - FIXED
 * Unable to delete user connection after WordPress v6.1 - FIXED
 
-= 1.7 =
+= 1.7 - 2023-05-23 =
 * Update Mustache package to support PHP 8.
 
 = 1.6.6 =
