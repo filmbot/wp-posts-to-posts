@@ -41,6 +41,8 @@ abstract class scbAdminPage {
 
 	private static $registered = array();
 
+	public $nonce;
+
 	/**
 	 * Registers class of page.
 	 *
