@@ -2,10 +2,10 @@
 
 Contributors: scribu, ciobi, ayecode, stiofansisland
 Tags: connections, custom post types, relationships, many-to-many, users
-Requires at least: 4.5
+Requires at least: 6.0
 Requires PHP: 5.6
-Tested up to: 6.2
-Stable tag: 1.7.1
+Tested up to: 6.3
+Stable tag: 1.7.2
 
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -60,6 +60,9 @@ Additional info can be found on the [wiki](http://github.com/scribu/wp-posts-to-
 5. Connection Types screen
 
 == Changelog ==
+
+= 1.7.2 - 2023-09-14 =
+* PHP 8.2 deprecated notices - FIXED
 
 = 1.7.1 - 2023-07-31 =
 * PHP deprecated notice "Creation of dynamic property" - FIXED
