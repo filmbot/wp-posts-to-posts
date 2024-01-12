@@ -4,6 +4,8 @@ class P2P_Side_User extends P2P_Side {
 
 	protected $item_type = 'P2P_Item_User';
 
+	public $query_vars;
+
 	function __construct( $query_vars ) {
 		$this->query_vars = $query_vars;
 	}
