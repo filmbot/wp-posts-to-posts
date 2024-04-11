@@ -3,12 +3,12 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Posts 2 Posts 1.7.2\n"
+"Project-Id-Version: Posts 2 Posts 1.7.3\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/p2p\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2023-09-14 10:36+0530\n"
+"POT-Creation-Date: 2024-04-11 11:38+0530\n"
 "PO-Revision-Date: 2013-MO-DA HO:MI+ZONE\n"
 "Last-Translator: \n"
 "Language-Team: AyeCode Ltd <contact@ayecode.io>\n"
@@ -115,19 +115,19 @@ msgstr ""
 msgid "Connected %s"
 msgstr ""
 
-#: vendor/scribu/lib-posts-to-posts/side-user.php:16
+#: vendor/scribu/lib-posts-to-posts/side-user.php:18
 msgid "Users"
 msgstr ""
 
-#: vendor/scribu/lib-posts-to-posts/side-user.php:25
+#: vendor/scribu/lib-posts-to-posts/side-user.php:27
 msgid "User"
 msgstr ""
 
-#: vendor/scribu/lib-posts-to-posts/side-user.php:26
+#: vendor/scribu/lib-posts-to-posts/side-user.php:28
 msgid "Search Users"
 msgstr ""
 
-#: vendor/scribu/lib-posts-to-posts/side-user.php:27
+#: vendor/scribu/lib-posts-to-posts/side-user.php:29
 msgid "No users found."
 msgstr ""
 
